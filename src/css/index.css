@@ -1,0 +1,5 @@
+@import './common/common.css';
+@import './lib/transitionAnimation.css';
+
+@import './common/tailwind.css';
+@import './common/reset.css';

@@ -1,0 +1,33 @@
+@custom-media --sm (max-width: 479px);
+@custom-media --sp (max-width: 767px);
+@custom-media --tb (max-width: 1023px);
+/* pc 1024px以上 */
+
+.only-sp {
+    @media (min-width: 768px) {
+        display: none !important;
+    }
+    @media (max-width: 767px) {
+        display: block;
+    }
+}
+
+.only-not-sp {
+    @media (min-width: 768px) {
+        display: block;
+    }
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
+
+html,
+body {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
