@@ -46,11 +46,13 @@ window.addEventListener('load', () => {
 
     // タブメニュー
     // const tabs: HTMLCollectionOf<Element> = document.getElementsByClassName('tabMenu');
-    // for (let i = 0; i < tabs.length; i++) {
-    //     tabs[i].addEventListener('click', () => {
-    //         document.getElementsByClassName('isShow')[0].classList.remove('isShow');
-    //         tabs[i].classList.add('isShow');
-    //     });
+    // if (tabs.length !== 0) {
+    //     for (let i = 0; i < tabs.length; i++) {
+    //         tabs[i].addEventListener('click', () => {
+    //             document.getElementsByClassName('isShow')[0].classList.remove('isShow');
+    //             tabs[i].classList.add('isShow');
+    //         });
+    //     }
     // }
     //
 });
