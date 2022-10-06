@@ -63,13 +63,7 @@ const $smoothScroll = (hash: string, pcOffset = 0, tabletOffset = 0, mobileOffse
                 return;
             }
             const targetY: number = targetElement.getBoundingClientRect().top;
-            let scrollY = 0;
-            if (window.pageYOffset > targetY) {
-                scrollY = targetY;
-            } else {
-                scrollY = window.pageYOffset + targetY;
-            }
-            this.scrollSizeBranchFunction(targetElement, scrollY);
+            this.scrollSizeBranchFunction(targetElement, targetY);
         };
     }
 
