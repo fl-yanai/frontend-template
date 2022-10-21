@@ -1,27 +1,23 @@
-.transition-target.fadeUp {
+.transition-target {
     opacity: 0;
-    transform: translateY(100px);
-    transition: 0.5s;
-    &.transition {
-        opacity: 1;
-        transform: translateY(0);
+    &.fadeUp {
+        transform: translateY(100px);
+        transition: 0.7s;
+        &.transition {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
-}
-
-.transition-target.fadeIn {
-    opacity: 0;
-    transition: 0.5s;
-    &.transition {
-        opacity: 1;
+    &.fadeIn {
+        transition: 1.5s;
+        &.transition {
+            opacity: 1;
+        }
     }
-}
-
-.transition-target.fadeZoom {
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.5s;
-    &.transition {
-        opacity: 1;
-        transform: scale(1);
+    &.fadeZoom {
+        transition: 1.5s;
+        &.transition {
+            opacity: 1;
+        }
     }
 }
