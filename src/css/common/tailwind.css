@@ -15,4 +15,10 @@ img {
     .container {
         @apply mx-auto max-w-[89.3%] md:max-w-[1160px] w-[89.3%];
     }
+    .sp-only {
+        @apply block md:hidden;
+    }
+    .not-sp-only {
+        @apply hidden md:block;
+    }
 }
