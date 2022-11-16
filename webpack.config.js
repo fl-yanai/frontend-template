@@ -104,7 +104,7 @@ module.exports = {
   },
 
   plugins: [
-    ...htmlOthersWebPackPlugin(entries.input,entries.output,'./src/views'), 
+    ...htmlOthersWebPackPlugin(entries.input,entries.output,'./src/pages'), 
     new MiniCssExtractPlugin({
       filename: "css/bundle.css",
     }),
